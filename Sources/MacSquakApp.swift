@@ -20,7 +20,13 @@ struct MacSquakApp: App {
 
                 Button("Transcribe Last Recording") { vm.transcribeLast() }
                 Divider()
-                Button("Settings") { NSApp.sendAction(Selector(("showSettingsWindow:")), to: nil, from: nil) }
+                if #available(macOS 14.0, *) {
+                    SettingsLink()
+                } else {
+                    Button("Settings") {
+                        NSApp.sendAction(Selector(("showPreferencesWindow:")), to: nil, from: nil)
+                    }
+                }
                 Button("Quit") { NSApplication.shared.terminate(nil) }
             }
             .padding()
