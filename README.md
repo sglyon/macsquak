@@ -2,6 +2,9 @@
 
 Local-first macOS speech-to-text menu bar app using Parakeet (MLX) on Apple Silicon.
 
+- User docs: [README_USER.md](README_USER.md)
+- Developer docs: [README_DEV.md](README_DEV.md)
+
 ## Features
 - Global hotkey recording with selectable mode: toggle or hold-to-record (default Cmd+Shift+R)
 - Records microphone audio to local WAV files
