@@ -31,6 +31,7 @@ On first transcription, MacSquak will automatically:
 
 ## Permissions
 On first run, grant Microphone access in macOS privacy settings.
+For auto-insert (paste/type), also grant Accessibility permission when prompted.
 
 ## Storage
 - `~/Library/Application Support/MacSquak/recordings/*.wav`

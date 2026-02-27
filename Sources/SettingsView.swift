@@ -19,6 +19,12 @@ struct SettingsView: View {
                 Stepper(value: $vm.settings.transcriptionRetries, in: 0...5) {
                     Text("Retries: \(vm.settings.transcriptionRetries)")
                 }
+                Toggle("Auto-insert into active app", isOn: $vm.settings.autoInsertIntoActiveApp)
+                Picker("Insert mode", selection: $vm.settings.insertMode) {
+                    ForEach(InsertMode.allCases) { m in
+                        Text(m.label).tag(m)
+                    }
+                }
                 Toggle("Enable post-processing", isOn: $vm.settings.enablePostProcess)
             }
             Section("Post-process") {

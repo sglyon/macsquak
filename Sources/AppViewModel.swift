@@ -23,6 +23,7 @@ final class AppViewModel: ObservableObject {
     private let transcriber = TranscriptionService()
     private let clipboard = ClipboardService()
     private let postProcessor = LLMPostProcessor()
+    private let inserter = TextInsertionService()
 
     init() {
         configureHotkeyHandlers()
@@ -106,7 +107,12 @@ final class AppViewModel: ObservableObject {
                 finalText = raw
             }
             clipboard.copy(finalText)
-            status = "Transcript copied to clipboard"
+            if settings.autoInsertIntoActiveApp {
+                let ok = inserter.insert(finalText, mode: settings.insertMode)
+                status = ok ? "Transcript copied + inserted" : "Transcript copied (insert failed; check Accessibility permission)"
+            } else {
+                status = "Transcript copied to clipboard"
+            }
             lastError = nil
         } catch {
             setError("Transcription failed (audio kept): \(error.localizedDescription)")

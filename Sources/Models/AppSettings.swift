@@ -21,6 +21,9 @@ struct AppSettings: Codable {
     var recordingMode: RecordingMode = .toggle
     var transcriptionRetries: Int = 2
 
+    var autoInsertIntoActiveApp = true
+    var insertMode: InsertMode = .paste
+
     static let fileName = "settings.json"
 
     static func load() -> AppSettings {

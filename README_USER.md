@@ -6,6 +6,7 @@ MacSquak is a local-first macOS menu bar app for speech-to-text using NVIDIA Par
 - Record speech with a global hotkey
 - Transcribe locally on your Mac
 - Copy transcript to clipboard automatically
+- Optionally auto-paste/type into the active app
 - Optionally post-process transcript with an LLM prompt
 - Keep audio files when transcription fails
 
