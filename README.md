@@ -8,7 +8,7 @@ Local-first macOS speech-to-text menu bar app using Parakeet (MLX) on Apple Sili
 ## Features
 - Global hotkey recording with selectable mode: toggle or hold-to-record (default Cmd+Shift+R)
 - Records microphone audio to local WAV files
-- Self-contained local runtime bootstrapped with **uv** (venv + `parakeet-mlx`)
+- Self-contained local runtime bootstrapped with **uv** (venv + `parakeet-mlx` + vendored ffmpeg via `imageio-ffmpeg`)
 - Transcribes locally via a JSON-contract worker with retry support
 - Copies transcript to clipboard automatically
 - Keeps audio if transcription fails
@@ -26,7 +26,7 @@ Local-first macOS speech-to-text menu bar app using Parakeet (MLX) on Apple Sili
 
 On first transcription, MacSquak will automatically:
 - create a local venv under Application Support
-- install `parakeet-mlx` using uv
+- install `parakeet-mlx` and `imageio-ffmpeg` using uv
 - copy bundled worker script into runtime/bin
 
 ## Permissions

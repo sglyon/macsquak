@@ -40,7 +40,7 @@ final class PythonRuntimeManager {
 
         try run(["uv", "venv", venvDir.path])
         let py = venvDir.appendingPathComponent("bin/python").path
-        try run(["uv", "pip", "install", "--python", py, "parakeet-mlx"])
+        try run(["uv", "pip", "install", "--python", py, "parakeet-mlx", "imageio-ffmpeg"])
     }
 
     private func installWorkerScript() throws -> URL {
