@@ -33,7 +33,8 @@ final class AppViewModel: ObservableObject {
 
         switch settings.recordingMode {
         case .toggle:
-            KeyboardShortcuts.onKeyUp(for: .toggleRecording) { [weak self] in
+            // onKeyDown is more reliable than onKeyUp for global shortcuts across apps
+            KeyboardShortcuts.onKeyDown(for: .toggleRecording) { [weak self] in
                 self?.toggleRecording()
             }
         case .hold:
