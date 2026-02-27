@@ -1,0 +1,9 @@
+/Volumes/work/src/macsquak/Sources/AppViewModel.swift
+/Volumes/work/src/macsquak/Sources/MacSquakApp.swift
+/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift
+/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift
+/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift
+/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift
+/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift
+/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift
+/Volumes/work/src/macsquak/Sources/SettingsView.swift

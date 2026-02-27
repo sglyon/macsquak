@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/master.swiftdeps"
+  },
+  "/Volumes/work/src/macsquak/Sources/AppViewModel.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/MacSquakApp.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.dia"
+  },
+  "/Volumes/work/src/macsquak/Sources/SettingsView.swift": {
+    "dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.d",
+    "object": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swift.o",
+    "swiftmodule": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swiftdeps",
+    "diagnostics": "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.dia"
+  }
+}

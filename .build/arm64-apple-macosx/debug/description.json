@@ -1,0 +1,1521 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.xctest/Contents/MacOS/MacSquakPackageTests",
+      "packagePath" : "/Volumes/work/src/macsquak",
+      "productName" : "MacSquakPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ar.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/ar.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ar.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/cs.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/cs.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/cs.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/de.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/de.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/de.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/en.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/en.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/en.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/es.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/es.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/es.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/fr.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/fr.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/fr.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/hu.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/hu.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/hu.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/it.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/it.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/it.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ja.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/ja.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ja.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ko.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/ko.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ko.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/nl.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/nl.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/nl.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/pt-br.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/pt-BR.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/pt-br.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ru.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/ru.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/ru.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/sk.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/sk.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/sk.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/zh-hans.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/zh-Hans.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/zh-hans.lproj/Localizable.strings"
+        }
+      ]
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/zh-tw.lproj/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Localization/zh-TW.lproj/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts_KeyboardShortcuts.bundle/zh-tw.lproj/Localizable.strings"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.KeyboardShortcuts-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/sources",
+      "importPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/CarbonKeyboardShortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/KeyboardShortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/NSMenuItem++.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Shortcut.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Utilities.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/ViewModifiers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<KeyboardShortcuts-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "KeyboardShortcuts",
+      "moduleOutputPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/KeyboardShortcuts.swiftmodule",
+      "objects" : [
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/CarbonKeyboardShortcuts.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Key.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/KeyboardShortcuts.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/NSMenuItem++.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Name.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Recorder.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/RecorderCocoa.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Shortcut.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Utilities.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/ViewModifiers.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/include/KeyboardShortcuts-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-user-module-version",
+        "2.4.0",
+        "-package-name",
+        "keyboardshortcuts"
+      ],
+      "outputFileMapPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/CarbonKeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/KeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/NSMenuItem++.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Name.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Recorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/RecorderCocoa.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Shortcut.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Utilities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/ViewModifiers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/KeyboardShortcuts.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/CarbonKeyboardShortcuts.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/KeyboardShortcuts.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/NSMenuItem++.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Shortcut.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Utilities.swift",
+        "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/ViewModifiers.swift",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacSquak-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/sources",
+      "importPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/AppViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/MacSquakApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/KeyboardShortcuts.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MacSquak",
+      "moduleOutputPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquak.swiftmodule",
+      "objects" : [
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swift.o",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MacSquak_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macsquak"
+      ],
+      "outputFileMapPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquak.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/work/src/macsquak/Sources/AppViewModel.swift",
+        "/Volumes/work/src/macsquak/Sources/MacSquakApp.swift",
+        "/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift",
+        "/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift",
+        "/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift",
+        "/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift",
+        "/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift",
+        "/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift",
+        "/Volumes/work/src/macsquak/Sources/SettingsView.swift"
+      ],
+      "tempsPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacSquakPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/sources",
+      "importPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquakTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacSquakPackageTests",
+      "moduleOutputPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquakPackageTests.swiftmodule",
+      "objects" : [
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/include/MacSquakPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macsquak"
+      ],
+      "outputFileMapPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquakPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacSquakTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/sources",
+      "importPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Tests/MacSquakTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacSquakTests",
+      "moduleOutputPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquakTests.swiftmodule",
+      "objects" : [
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/MacSquakTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macsquak"
+      ],
+      "outputFileMapPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/MacSquakTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules/MacSquakTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/work/src/macsquak/Tests/MacSquakTests.swift"
+      ],
+      "tempsPath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "KeyboardShortcuts" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "KeyboardShortcuts",
+      "-package-name",
+      "keyboardshortcuts",
+      "-c",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/CarbonKeyboardShortcuts.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/KeyboardShortcuts.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/NSMenuItem++.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Shortcut.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Utilities.swift",
+      "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/ViewModifiers.swift",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/include/KeyboardShortcuts-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-user-module-version",
+      "2.4.0",
+      "-package-name",
+      "keyboardshortcuts",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacSquak" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacSquak",
+      "-package-name",
+      "macsquak",
+      "-c",
+      "/Volumes/work/src/macsquak/Sources/AppViewModel.swift",
+      "/Volumes/work/src/macsquak/Sources/MacSquakApp.swift",
+      "/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift",
+      "/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift",
+      "/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift",
+      "/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift",
+      "/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift",
+      "/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift",
+      "/Volumes/work/src/macsquak/Sources/SettingsView.swift",
+      "-I",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MacSquak_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macsquak",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacSquakPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacSquakPackageTests",
+      "-package-name",
+      "macsquak",
+      "-c",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift",
+      "-I",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/include/MacSquakPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macsquak",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacSquakTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacSquakTests",
+      "-package-name",
+      "macsquak",
+      "-c",
+      "/Volumes/work/src/macsquak/Tests/MacSquakTests.swift",
+      "-I",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macsquak",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "KeyboardShortcuts" : [
+
+    ],
+    "MacSquak" : [
+      "KeyboardShortcuts"
+    ],
+    "MacSquakPackageTests" : [
+      "MacSquakTests",
+      "MacSquak",
+      "KeyboardShortcuts"
+    ],
+    "MacSquakTests" : [
+      "MacSquak",
+      "KeyboardShortcuts"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/CarbonKeyboardShortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/KeyboardShortcuts.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/NSMenuItem++.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Shortcut.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Utilities.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/ViewModifiers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/sources"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak-entitlement.plist"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/AppViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/MacSquakApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Models/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/AudioRecorderService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/ClipboardService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/KeychainService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/LLMPostProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/Services/TranscriptionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Sources/SettingsView.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/sources"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/CarbonKeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/KeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/NSMenuItem++.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Name.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Recorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/RecorderCocoa.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Shortcut.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Utilities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/ViewModifiers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.product/Objects.LinkFileList"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/sources"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/CarbonKeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Key.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/KeyboardShortcuts.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/NSMenuItem++.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Name.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Recorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/RecorderCocoa.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Shortcut.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/Utilities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/ViewModifiers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/KeyboardShortcuts.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AppViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/AudioRecorderService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/ClipboardService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/KeychainService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/LLMPostProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/MacSquakApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquak.build/TranscriptionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/MacSquakTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakPackageTests.product/Objects.LinkFileList"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/work/src/macsquak/Tests/MacSquakTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/MacSquakTests.build/sources"
+    },
+    "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/work/src/macsquak/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
