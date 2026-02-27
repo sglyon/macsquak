@@ -1,10 +1,25 @@
 import Foundation
 
+enum RecordingMode: String, Codable, CaseIterable, Identifiable {
+    case toggle
+    case hold
+
+    var id: String { rawValue }
+    var label: String {
+        switch self {
+        case .toggle: return "Toggle (press once to start/stop)"
+        case .hold: return "Hold-to-record (hold key to record)"
+        }
+    }
+}
+
 struct AppSettings: Codable {
     var parakeetModel = "mlx-community/parakeet-tdt-0.6b-v3"
     var enablePostProcess = false
     var llmEndpoint = ""
     var promptTemplate = "Clean this transcript for clarity and punctuation:\n\n{raw_transcript}"
+    var recordingMode: RecordingMode = .toggle
+    var transcriptionRetries: Int = 2
 
     static let fileName = "settings.json"
 
@@ -29,4 +44,5 @@ enum paths {
     }()
     static let recordingsDir = baseDir.appendingPathComponent("recordings", isDirectory: true)
     static let settingsURL = baseDir.appendingPathComponent(AppSettings.fileName)
+    static let logsURL = baseDir.appendingPathComponent("macsquak.log")
 }

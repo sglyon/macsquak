@@ -6,8 +6,18 @@ import KeyboardShortcuts
 final class AppViewModel: ObservableObject {
     @Published var isRecording = false
     @Published var status = "Ready"
-    @Published var settings = AppSettings.load()
+    @Published var settings = AppSettings.load() {
+        didSet {
+            do {
+                try settings.save()
+            } catch {
+                status = "Failed to save settings: \(error.localizedDescription)"
+            }
+            configureHotkeyHandlers()
+        }
+    }
     @Published var tempAPIKey = ""
+    @Published var lastError: String?
 
     private let recorder = AudioRecorderService()
     private let transcriber = TranscriptionService()
@@ -15,8 +25,24 @@ final class AppViewModel: ObservableObject {
     private let postProcessor = LLMPostProcessor()
 
     init() {
-        KeyboardShortcuts.onKeyUp(for: .toggleRecording) { [weak self] in
-            self?.toggleRecording()
+        configureHotkeyHandlers()
+    }
+
+    private func configureHotkeyHandlers() {
+        KeyboardShortcuts.disable(.toggleRecording)
+
+        switch settings.recordingMode {
+        case .toggle:
+            KeyboardShortcuts.onKeyUp(for: .toggleRecording) { [weak self] in
+                self?.toggleRecording()
+            }
+        case .hold:
+            KeyboardShortcuts.onKeyDown(for: .toggleRecording) { [weak self] in
+                self?.startRecordingIfNeeded()
+            }
+            KeyboardShortcuts.onKeyUp(for: .toggleRecording) { [weak self] in
+                self?.stopRecordingIfNeededAndTranscribe()
+            }
         }
     }
 
@@ -33,13 +59,36 @@ final class AppViewModel: ObservableObject {
                 status = "Recording..."
             }
         } catch {
-            status = "Recording error: \(error.localizedDescription)"
+            setError("Recording error: \(error.localizedDescription)")
+        }
+    }
+
+    private func startRecordingIfNeeded() {
+        guard !isRecording else { return }
+        do {
+            try recorder.start()
+            isRecording = true
+            status = "Recording... (hold mode)"
+        } catch {
+            setError("Failed to start recording: \(error.localizedDescription)")
+        }
+    }
+
+    private func stopRecordingIfNeededAndTranscribe() {
+        guard isRecording else { return }
+        do {
+            let file = try recorder.stop()
+            isRecording = false
+            status = "Saved audio: \(file.lastPathComponent)"
+            Task { await transcribe(file) }
+        } catch {
+            setError("Failed to stop recording: \(error.localizedDescription)")
         }
     }
 
     func transcribeLast() {
         guard let file = recorder.lastRecordingURL else {
-            status = "No recording found"
+            setError("No recording found")
             return
         }
         Task { await transcribe(file) }
@@ -48,7 +97,7 @@ final class AppViewModel: ObservableObject {
     private func transcribe(_ file: URL) async {
         status = "Transcribing..."
         do {
-            let raw = try await transcriber.transcribe(file: file, model: settings.parakeetModel)
+            let raw = try await transcriber.transcribe(file: file, model: settings.parakeetModel, retries: settings.transcriptionRetries)
             let finalText: String
             if settings.enablePostProcess {
                 finalText = try await postProcessor.process(raw: raw, settings: settings)
@@ -57,8 +106,9 @@ final class AppViewModel: ObservableObject {
             }
             clipboard.copy(finalText)
             status = "Transcript copied to clipboard"
+            lastError = nil
         } catch {
-            status = "Transcription failed (audio kept): \(error.localizedDescription)"
+            setError("Transcription failed (audio kept): \(error.localizedDescription)")
         }
     }
 
@@ -69,7 +119,31 @@ final class AppViewModel: ObservableObject {
             tempAPIKey = ""
             status = "API key saved"
         } catch {
-            status = "Keychain save failed"
+            setError("Keychain save failed")
+        }
+    }
+
+    func clearError() { lastError = nil }
+
+    private func setError(_ message: String) {
+        status = message
+        lastError = message
+        log(message)
+    }
+
+    private func log(_ message: String) {
+        let line = "[\(ISO8601DateFormatter().string(from: Date()))] \(message)\n"
+        if let data = line.data(using: .utf8) {
+            try? FileManager.default.createDirectory(at: paths.baseDir, withIntermediateDirectories: true)
+            if FileManager.default.fileExists(atPath: paths.logsURL.path) {
+                if let h = try? FileHandle(forWritingTo: paths.logsURL) {
+                    try? h.seekToEnd()
+                    try? h.write(contentsOf: data)
+                    try? h.close()
+                }
+            } else {
+                try? data.write(to: paths.logsURL)
+            }
         }
     }
 }

@@ -7,10 +7,18 @@ struct SettingsView: View {
     var body: some View {
         Form {
             Section("Hotkey") {
-                KeyboardShortcuts.Recorder("Toggle Recording:", name: .toggleRecording)
+                KeyboardShortcuts.Recorder("Record hotkey:", name: .toggleRecording)
+                Picker("Recording mode", selection: $vm.settings.recordingMode) {
+                    ForEach(RecordingMode.allCases) { mode in
+                        Text(mode.label).tag(mode)
+                    }
+                }
             }
             Section("Transcription") {
                 TextField("Model", text: $vm.settings.parakeetModel)
+                Stepper(value: $vm.settings.transcriptionRetries, in: 0...5) {
+                    Text("Retries: \(vm.settings.transcriptionRetries)")
+                }
                 Toggle("Enable post-processing", isOn: $vm.settings.enablePostProcess)
             }
             Section("Post-process") {
@@ -19,8 +27,15 @@ struct SettingsView: View {
                 SecureField("API Key (stored in Keychain)", text: $vm.tempAPIKey)
                 Button("Save API Key") { vm.saveAPIKey() }
             }
+
+            if let err = vm.lastError {
+                Section("Last Error") {
+                    Text(err).foregroundStyle(.red)
+                    Button("Clear") { vm.clearError() }
+                }
+            }
         }
         .padding()
-        .frame(width: 560)
+        .frame(width: 620)
     }
 }
