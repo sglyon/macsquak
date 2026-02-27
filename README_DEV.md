@@ -54,3 +54,19 @@ swift run
 - Explicit bootstrap progress UI
 - Retry button for failed transcripts in menu
 - Signed/notarized app packaging
+
+
+## App bundle packaging (for stable bundle id + Accessibility)
+Use the packaging script to run MacSquak as a real `.app` with a bundle identifier:
+
+```bash
+./scripts/package_app.sh
+open dist/MacSquak.app
+```
+
+Optional overrides:
+```bash
+BUNDLE_ID=com.sglyon.macsquak CODESIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" ./scripts/package_app.sh
+```
+
+This avoids the missing bundle identifier issues seen when running from `swift run`/package-only mode.

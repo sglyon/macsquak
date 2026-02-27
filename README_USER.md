@@ -52,3 +52,16 @@ If post-processing fails, raw transcript is still used.
 - **No transcription**: confirm `uv` exists in PATH and microphone permission is granted.
 - **Runtime bootstrap fails**: open log file above and re-run app.
 - **No clipboard output**: check status in menu bar panel and logs.
+
+
+## If Settings/auto-insert behaves oddly in Xcode package mode
+Run as a packaged app instead of package-executable mode:
+
+```bash
+./scripts/package_app.sh
+open dist/MacSquak.app
+```
+
+Then grant:
+- Microphone permission
+- Accessibility permission (for auto-insert)
