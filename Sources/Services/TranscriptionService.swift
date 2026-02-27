@@ -15,12 +15,14 @@ struct WorkerResponse: Codable {
 
 final class TranscriptionService {
     func transcribe(file: URL, model: String, retries: Int = 2) async throws -> String {
+        let runtime = try PythonRuntimeManager.shared.prepareRuntime()
+
         let maxAttempts = max(1, retries + 1)
         var lastError: Error?
 
         for attempt in 1...maxAttempts {
             do {
-                return try runWorker(file: file, model: model)
+                return try runWorker(file: file, model: model, runtime: runtime)
             } catch {
                 lastError = error
                 if attempt < maxAttempts {
@@ -32,14 +34,10 @@ final class TranscriptionService {
         throw lastError ?? NSError(domain: "MacSquak.Transcription", code: -1, userInfo: [NSLocalizedDescriptionKey: "Unknown transcription error"])
     }
 
-    private func runWorker(file: URL, model: String) throws -> String {
-        guard let script = findScriptPath() else {
-            throw NSError(domain: "MacSquak.Transcription", code: 100, userInfo: [NSLocalizedDescriptionKey: "transcribe_parakeet.py not found"])
-        }
-
+    private func runWorker(file: URL, model: String, runtime: PythonRuntimeManager.RuntimeInfo) throws -> String {
         let p = Process()
-        p.executableURL = URL(fileURLWithPath: "/usr/bin/env")
-        p.arguments = ["python3", script.path, "--audio", file.path, "--model", model]
+        p.executableURL = runtime.pythonPath
+        p.arguments = [runtime.scriptPath.path, "--audio", file.path, "--model", model]
 
         let out = Pipe(); let err = Pipe()
         p.standardOutput = out
@@ -68,22 +66,5 @@ final class TranscriptionService {
         }
 
         throw NSError(domain: "MacSquak.Transcription", code: 102, userInfo: [NSLocalizedDescriptionKey: decoded.error ?? "Worker returned empty transcript"])
-    }
-
-    private func findScriptPath() -> URL? {
-        if let env = ProcessInfo.processInfo.environment["MACSQUAK_PARAKEET_SCRIPT"] {
-            let u = URL(fileURLWithPath: env)
-            if FileManager.default.fileExists(atPath: u.path) { return u }
-        }
-
-        let candidates = [
-            URL(fileURLWithPath: FileManager.default.currentDirectoryPath).appendingPathComponent("Scripts/transcribe_parakeet.py"),
-            URL(fileURLWithPath: FileManager.default.currentDirectoryPath).appendingPathComponent("../Scripts/transcribe_parakeet.py")
-        ]
-
-        for c in candidates where FileManager.default.fileExists(atPath: c.path) {
-            return c
-        }
-        return nil
     }
 }

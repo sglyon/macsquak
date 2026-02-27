@@ -14,7 +14,10 @@ let package = Package(
         .executableTarget(
             name: "MacSquak",
             dependencies: ["KeyboardShortcuts"],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .copy("Resources/transcribe_parakeet.py")
+            ]
         ),
         .testTarget(
             name: "MacSquakTests",
