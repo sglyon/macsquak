@@ -71,11 +71,11 @@ final class PythonRuntimeManager {
             return url
         }
 
-        // SwiftPM/dev fallback
+        // Dev fallback (if bundle lookup fails)
         let cwd = URL(fileURLWithPath: fm.currentDirectoryPath)
         let candidates = [
-            cwd.appendingPathComponent("Scripts/transcribe_parakeet.py"),
-            cwd.appendingPathComponent("../Scripts/transcribe_parakeet.py")
+            cwd.appendingPathComponent("Sources/Resources/transcribe_parakeet.py"),
+            cwd.appendingPathComponent("../Sources/Resources/transcribe_parakeet.py")
         ]
         return candidates.first(where: { fm.fileExists(atPath: $0.path) })
     }
